@@ -1,6 +1,6 @@
 Apartments = {}
 
-Apartments.Starting = true
+Apartments.Starting = false
 
 Apartments.SpawnOffset = 30
 
@@ -40,4 +40,22 @@ Apartments.Locations = {
             enter = vector4(291.517, -1078.674, 29.405, 270.75),
         }
     },
+}
+
+Apartments.Language = {
+    ['enter'] = 'Enter Apartment',
+    ['ring_doorbell'] = 'Ring Doorbell',
+    ['logout'] = 'Logout Character',
+    ['change_outfit'] = 'Change Outfit',
+    ['open_stash'] = 'Open Stash',
+    ['move_here'] = 'Move Here',
+    ['open_door'] = 'Open Door',
+    ['leave'] = 'Leave Apartment',
+    ['at_the_door'] = 'Someone is at the door!',
+    ['to_far_from_door'] = 'You are to far away from the Doorbell',
+    ['close_menu'] = "⬅ Close Menu",
+    ['tennants'] = 'Tennants',
+    ['nobody_home'] = 'There is nobody home..',
+    ['receive_apart'] = "You got a apartment",
+    ['changed_apart'] = "You moved apartments"
 }
